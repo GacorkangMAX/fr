@@ -1,0 +1,133 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+    line-height: 1.6;
+    user-select: none;"
+}
+
+header {
+    background-color: #d7206c;
+    padding: 10px;
+    border-radius: 25px;
+    margin: 15px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.header-content h1 {
+    color: white;
+    font-size: 2rem;
+    margin: 0; /* Menghilangkan margin */
+}
+
+.gambar-header {
+    width: 80px;
+    height: auto;
+    border-radius: 50%; /* Membuat gambar berbentuk lingkaran */
+}
+
+
+main {
+    margin: 20px;
+    text-align: center;
+}
+
+h2 {
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 40px;
+    background-color: c5c5c5;
+    overflow: hidden; /* Mengatasi masalah radius pada tabel */ 
+}
+
+.kiri {
+    border-radius: 15px 15px 0px 0px;
+}
+
+.tengah {
+    border-radius: 15px 15px 0px 0px;
+}
+.kanan {
+    border-radius: 15px 15px 0px 0px ;
+}
+
+.kiri2 {
+    border-radius: 0px 0px 15px 15px;
+}
+
+.tengah2 {
+    border-radius: 0px 0px 15px 15px;
+}
+.kanan2 {
+    border-radius: 0px 0px 15px 15px;
+}
+
+.spasi {
+    width: 0%;
+    background-color: #ffffff;
+    color: #ffffff;
+}
+
+table th, table td {
+    padding: 15px;
+    text-align: left;
+}
+
+table th {
+    background-color: #145df0;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1rem;
+    text-align: center;
+}
+
+table td {
+    background-color: #c5c5c5;
+    color: #333;
+    text-align: center;
+    transition: background-color 0.3s ease; /* Animasi untuk hover */
+}
+
+table tr:nth-child(even) td {
+    background-color: #f9f9f9; /* Garis berselang untuk background */
+}
+
+
+.gambar-menu {
+    width: 120px;
+    height: auto;
+    border-radius: 15px; /* Radius gambar di dalam tabel */
+}
+
+footer {
+    background-color: #d7206c;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin: px;
+}
+
+.DaftarMenu{
+    color: #145df0;
+}
